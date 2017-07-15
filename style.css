@@ -1,0 +1,174 @@
+	
+/*Setting Background color for all the pages */
+html{
+	background: #F2F4F4  ;  
+   }
+/* Backgroung features for header*/
+ header{
+    background:#EEEEEE ;
+    height: 120px;
+    border-radius: 10px
+    }
+
+  footer{
+text-align: center;
+color: grey;
+
+    }
+/*all the features for displaying the buttons*/
+.Start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 50vw;
+  margin: 0 auto;
+  min-height: 40vh;
+   }
+
+/* another features for buttons*/
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  background: linear-gradient(130deg, #07d9a3, #048fee);
+  background-size: 400% 400%;
+  letter-spacing: 0.1em;
+  border-radius: 10px;
+   }
+
+
+	h1 {
+	 font-family: sans-serif;
+     text-align: center;
+      }
+
+	h2{
+	font-size: 25px;
+	  }
+
+	h2,h3,p{
+	text-align: center;
+      }
+
+/* animation for the NO button*/
+   .No:hover {
+     animation: gradient 10s ease infinite;
+     box-shadow: 0.2vw 0.2vw 0 lightcoral;
+      }
+
+     @keyframes gradient {
+     50% {
+     background-position: 100% 0;
+      }
+      }
+/*animation for the YES button*/
+    .Yes:hover {
+     animation: gradient 10s ease infinite;
+     box-shadow: 0.2vw 0.2vw 0 lightcoral;
+      }
+
+     @keyframes gradient {
+     50% {
+     background-position: 100% 0;
+      }
+      }
+
+/*animation for the Back button*/ 
+   .Back:hover {
+     animation: gradient 10s ease infinite;
+     box-shadow: 0.2vw 0.2vw 0 lightcoral;
+  }
+
+     @keyframes gradient {
+     50% {
+     background-position: 100% 0;
+     }
+     }
+
+/*animation for the Back button*/ 
+    .Back1:hover {
+     animation: gradient 10s ease infinite;
+     box-shadow: 0.2vw 0.2vw 0 lightcoral;
+     }
+
+     @keyframes gradient {
+     50% {
+     background-position: 100% 0;
+      }
+      }
+/*animation for the Back button*/ 
+   .Ticket:hover {
+     animation: gradient 10s ease infinite;
+     box-shadow: 0.2vw 0.2vw 0 lightcoral;
+     }
+
+     @keyframes gradient {
+     50% {
+     background-position: 100% 0;
+     }
+     }
+/*animation for the Back button*/ 
+    .Back2:hover {
+     animation: gradient 10s ease infinite;
+     box-shadow: 0.2vw 0.2vw 0 lightcoral;
+     }
+
+     @keyframes gradient {
+     50% {
+     background-position: 100% 0;
+     }
+     }
+  
+   .Back3 { position: relative;
+      width: 80px;
+      left:20px; 
+   	  top:-90px;
+     
+     }
+/*animation for the Back button*/
+   .Back3:hover {
+     animation: gradient 10s ease infinite;
+     box-shadow: 0.2vw 0.2vw 0 lightcoral;
+     }
+
+     @keyframes gradient {
+     50% {
+     background-position: 100% 0;
+     }
+     } 
+
+   .Send { position: relative;
+   	  width: 80px;
+   	  left:-10px; 
+   	  top:-90px;
+  
+     }
+/*animation for the Send button*/
+   .Send:hover {
+     animation: gradient 10s ease infinite;
+     box-shadow: 0.2vw 0.2vw 0 lightcoral;
+     }
+
+     @keyframes gradient {
+     50% {
+     background-position: 100% 0;
+     }
+     }
+/*animation for the Start button*/ 
+   .button:hover {
+     animation: gradient 10s ease infinite;
+     box-shadow: 0.2vw 0.2vw 0 lightcoral;
+     }
+
+     @keyframes gradient {
+     50% {
+     background-position: 100% 0;
+     }
+     }
